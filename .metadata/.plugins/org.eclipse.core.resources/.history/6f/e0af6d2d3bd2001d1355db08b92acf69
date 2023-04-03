@@ -1,0 +1,13 @@
+package LearnAutomationTest;
+
+import org.openqa.selenium.WebDriver;
+
+public class Sample {
+
+	WebDriver driver;
+public void LaunchBrowser()
+{
+
+}
+}
+

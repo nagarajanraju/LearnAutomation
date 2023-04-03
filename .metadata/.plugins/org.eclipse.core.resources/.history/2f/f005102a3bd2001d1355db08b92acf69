@@ -1,0 +1,11 @@
+package LearnAutomationTest;
+
+public class Sample {
+
+	WebDriver driver;
+public void LaunchBrowser()
+{
+
+}
+}
+

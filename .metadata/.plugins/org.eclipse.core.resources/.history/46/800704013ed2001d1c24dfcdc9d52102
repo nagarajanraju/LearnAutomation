@@ -1,0 +1,19 @@
+package LearnAutomationTest;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+public class Sample {
+
+WebDriver driver;
+
+@Test
+public void LaunchBrowser() throws InterruptedException
+{
+	WebDriverManager.chromedriver().setup();
+	driver = new ChromeDriver();
+ driver.get("https://www.infosys.com/");
+ Thread.sleep(20000);
+}
+}
+

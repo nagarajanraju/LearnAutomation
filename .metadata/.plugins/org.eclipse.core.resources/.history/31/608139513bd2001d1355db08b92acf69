@@ -1,0 +1,16 @@
+package LearnAutomationTest;
+
+import org.openqa.selenium.WebDriver;
+
+public class Sample {
+
+WebDriver driver;
+
+@Test
+public void LaunchBrowser()
+{
+ driver.get("https://www.infosys.com/");
+	
+}
+}
+
