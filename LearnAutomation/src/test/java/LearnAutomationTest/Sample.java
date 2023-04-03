@@ -9,14 +9,12 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Sample {
 
 WebDriver driver;
-
-@Test
-public void LaunchBrowser() throws InterruptedException
+public static void main(String arg[]) throws InterruptedException
 {
     WebDriverManager.chromedriver().setup();
 	WebDriver driver = new ChromeDriver();
     driver.get("https://www.infosys.com/");
-    Thread.sleep(20000);
+    Thread.sleep(2000);
 }
 }
 
