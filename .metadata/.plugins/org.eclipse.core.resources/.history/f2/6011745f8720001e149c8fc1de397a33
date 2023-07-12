@@ -1,0 +1,9 @@
+package Encapulation;
+
+public class Encap2 {
+	public static void main(String arg[])
+	{
+		
+	}
+
+}
