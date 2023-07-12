@@ -8,7 +8,10 @@ public class SampleTest {
 	
 	public void TC_001()
 	{
-		
+		WebDriverManager.chromedriver().setup();
+	        WebDriver driver = new ChromeDriver();
+                driver.get("https://www.infosys.com/");
+                Thread.sleep(2000);
 	}
 	
 }
