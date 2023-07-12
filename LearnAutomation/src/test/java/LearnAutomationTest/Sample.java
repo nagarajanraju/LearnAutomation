@@ -14,7 +14,7 @@ public static void main(String arg[]) throws InterruptedException
     WebDriverManager.chromedriver().setup();
 	WebDriver driver = new ChromeDriver();
     driver.get("https://www.infosys.com/");
-    Thread.sleep(2000);
+    Thread.sleep(200);
 }
 }
 
