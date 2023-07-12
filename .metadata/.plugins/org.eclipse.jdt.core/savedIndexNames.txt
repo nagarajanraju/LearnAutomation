@@ -5,7 +5,6 @@ INDEX VERSION 1.132+E:\Learning\.metadata\.plugins\org.eclipse.jdt.core
 140934830.index
 4280599647.index
 1016616508.index
-2023896546.index
 568641959.index
 2584342578.index
 700343052.index
